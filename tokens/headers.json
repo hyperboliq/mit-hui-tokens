@@ -1,0 +1,88 @@
+{
+  "header": {
+    "base": {
+      "typography": {
+        "fontFamily": "{typography-font-family-heading}",
+        "fontWeight": "{typography-font-weight-bold}",
+        "lineHeight": "{typography-line-height-tight}"
+      },
+      "spacing": {
+        "marginVertical": "{spacing-16}",
+        "marginHorizontal": "{spacing-0}"
+      },
+      "text": "{color-theme-{theme}-900}"
+    },
+    "variants": {
+      "h1": {
+        "typography": {
+          "fontSize": "{typography-font-size-4xl}",
+          "letterSpacing": "{typography-letter-spacing-tight}"
+        },
+        "spacing": {
+          "marginBottom": "{spacing-24}"
+        }
+      },
+      "h2": {
+        "typography": {
+          "fontSize": "{typography-font-size-3xl}",
+          "letterSpacing": "{typography-letter-spacing-tight}"
+        },
+        "spacing": {
+          "marginBottom": "{spacing-20}"
+        }
+      },
+      "h3": {
+        "typography": {
+          "fontSize": "{typography-font-size-2xl}",
+          "letterSpacing": "{typography-letter-spacing-normal}"
+        },
+        "spacing": {
+          "marginBottom": "{spacing-16}"
+        }
+      },
+      "h4": {
+        "typography": {
+          "fontSize": "{typography-font-size-xl}",
+          "letterSpacing": "{typography-letter-spacing-normal}"
+        },
+        "spacing": {
+          "marginBottom": "{spacing-12}"
+        }
+      },
+      "h5": {
+        "typography": {
+          "fontSize": "{typography-font-size-lg}",
+          "letterSpacing": "{typography-letter-spacing-normal}"
+        },
+        "spacing": {
+          "marginBottom": "{spacing-8}"
+        }
+      },
+      "h6": {
+        "typography": {
+          "fontSize": "{typography-font-size-base}",
+          "letterSpacing": "{typography-letter-spacing-wide}"
+        },
+        "spacing": {
+          "marginBottom": "{spacing-8}"
+        }
+      }
+    },
+    "styles": {
+      "display": {
+        "typography": {
+          "fontSize": "{typography-font-size-5xl}",
+          "fontWeight": "{typography-font-weight-black}",
+          "letterSpacing": "{typography-letter-spacing-tighter}"
+        }
+      },
+      "subtitle": {
+        "typography": {
+          "fontSize": "{typography-font-size-lg}",
+          "fontWeight": "{typography-font-weight-medium}",
+          "color": "{color-theme-{theme}-600}"
+        }
+      }
+    }
+  }
+} 

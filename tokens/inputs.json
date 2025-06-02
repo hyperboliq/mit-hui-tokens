@@ -1,0 +1,68 @@
+{
+  "input": {
+    "base": {
+      "typography": {
+        "fontFamily": "{typography-font-family-text}",
+        "fontWeight": "{typography-font-weight-regular}",
+        "fontSize": "{typography-font-size-base}"
+      },
+      "border": {
+        "radius": "{border-radius-8}",
+        "width": "{border-width-1}",
+        "color": "{color-theme-{theme}-300}"
+      },
+      "spacing": {
+        "paddingVertical": "{spacing-8}",
+        "paddingHorizontal": "{spacing-12}",
+        "marginVertical": "{spacing-8}",
+        "marginHorizontal": "{spacing-0}"
+      },
+      "background": "{color-primitive-white-opacity-100}",
+      "text": "{color-theme-{theme}-900}",
+      "placeholder": "{color-theme-{theme}-400}"
+    },
+    "states": {
+      "hover": {
+        "border": {
+          "color": "{color-theme-{theme}-400}"
+        }
+      },
+      "focus": {
+        "border": {
+          "color": "{color-theme-{theme}-500}",
+          "width": "{border-width-2}"
+        },
+        "outline": "none"
+      },
+      "error": {
+        "border": {
+          "color": "{color-primitive-red-500}"
+        },
+        "text": "{color-primitive-red-700}"
+      },
+      "disabled": {
+        "background": "{color-theme-{theme}-100}",
+        "text": "{color-theme-{theme}-400}",
+        "border": {
+          "color": "{color-theme-{theme}-200}"
+        }
+      }
+    },
+    "variants": {
+      "text": {
+        "value": "base"
+      },
+      "search": {
+        "icon": {
+          "color": "{color-theme-{theme}-400}",
+          "size": "{spacing-16}"
+        },
+        "paddingLeft": "{spacing-36}"
+      },
+      "textarea": {
+        "minHeight": "{spacing-100}",
+        "resize": "vertical"
+      }
+    }
+  }
+} 

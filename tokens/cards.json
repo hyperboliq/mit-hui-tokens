@@ -1,0 +1,94 @@
+{
+  "card": {
+    "base": {
+      "background": "{color-primitive-white-opacity-100}",
+      "border": {
+        "radius": "{border-radius-16}",
+        "width": "{border-width-1}",
+        "color": "{color-theme-{theme}-200}"
+      },
+      "spacing": {
+        "padding": "{spacing-24}",
+        "margin": "{spacing-16}"
+      },
+      "shadow": {
+        "color": "{color-primitive-black-opacity-10}",
+        "offsetX": "0",
+        "offsetY": "{spacing-4}",
+        "blur": "{spacing-12}",
+        "spread": "0"
+      }
+    },
+    "variants": {
+      "elevated": {
+        "shadow": {
+          "color": "{color-primitive-black-opacity-15}",
+          "offsetY": "{spacing-8}",
+          "blur": "{spacing-16}"
+        }
+      },
+      "outlined": {
+        "shadow": "none",
+        "border": {
+          "width": "{border-width-1}",
+          "color": "{color-theme-{theme}-300}"
+        }
+      },
+      "flat": {
+        "shadow": "none",
+        "border": "none",
+        "background": "{color-theme-{theme}-50}"
+      }
+    },
+    "elements": {
+      "header": {
+        "spacing": {
+          "paddingBottom": "{spacing-16}",
+          "marginBottom": "{spacing-16}"
+        },
+        "border": {
+          "bottom": {
+            "width": "{border-width-1}",
+            "color": "{color-theme-{theme}-200}"
+          }
+        }
+      },
+      "footer": {
+        "spacing": {
+          "paddingTop": "{spacing-16}",
+          "marginTop": "{spacing-16}"
+        },
+        "border": {
+          "top": {
+            "width": "{border-width-1}",
+            "color": "{color-theme-{theme}-200}"
+          }
+        }
+      },
+      "media": {
+        "spacing": {
+          "margin": "{spacing-0} {spacing-0} {spacing-16} {spacing-0}"
+        },
+        "border": {
+          "radius": "{border-radius-8}"
+        }
+      }
+    },
+    "states": {
+      "hover": {
+        "shadow": {
+          "color": "{color-primitive-black-opacity-20}",
+          "offsetY": "{spacing-6}",
+          "blur": "{spacing-20}"
+        }
+      },
+      "active": {
+        "shadow": {
+          "color": "{color-primitive-black-opacity-10}",
+          "offsetY": "{spacing-2}",
+          "blur": "{spacing-8}"
+        }
+      }
+    }
+  }
+} 
