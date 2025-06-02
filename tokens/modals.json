@@ -1,0 +1,109 @@
+{
+  "modal": {
+    "base": {
+      "background": "{color-primitive-white-opacity-100}",
+      "border": {
+        "radius": "{border-radius-24}",
+        "width": "{border-width-0}"
+      },
+      "spacing": {
+        "padding": "{spacing-24}",
+        "maxWidth": "{spacing-512}",
+        "maxHeight": "90vh"
+      },
+      "shadow": {
+        "color": "{color-primitive-black-opacity-25}",
+        "offsetX": "0",
+        "offsetY": "{spacing-8}",
+        "blur": "{spacing-24}",
+        "spread": "0"
+      },
+      "zIndex": "1000"
+    },
+    "overlay": {
+      "background": "{color-primitive-black-opacity-50}",
+      "backdrop": {
+        "filter": "blur({spacing-4})"
+      },
+      "zIndex": "999"
+    },
+    "variants": {
+      "small": {
+        "spacing": {
+          "maxWidth": "{spacing-384}"
+        }
+      },
+      "large": {
+        "spacing": {
+          "maxWidth": "{spacing-640}"
+        }
+      },
+      "fullscreen": {
+        "border": {
+          "radius": "0"
+        },
+        "spacing": {
+          "maxWidth": "100vw",
+          "maxHeight": "100vh",
+          "padding": "{spacing-32}"
+        }
+      }
+    },
+    "elements": {
+      "header": {
+        "spacing": {
+          "paddingBottom": "{spacing-16}",
+          "marginBottom": "{spacing-16}"
+        },
+        "border": {
+          "bottom": {
+            "width": "{border-width-1}",
+            "color": "{color-theme-{theme}-200}"
+          }
+        },
+        "typography": {
+          "fontSize": "{typography-font-size-xl}",
+          "fontWeight": "{typography-font-weight-semibold}"
+        }
+      },
+      "footer": {
+        "spacing": {
+          "paddingTop": "{spacing-16}",
+          "marginTop": "{spacing-16}"
+        },
+        "border": {
+          "top": {
+            "width": "{border-width-1}",
+            "color": "{color-theme-{theme}-200}"
+          }
+        }
+      },
+      "close": {
+        "spacing": {
+          "position": "absolute",
+          "top": "{spacing-16}",
+          "right": "{spacing-16}"
+        },
+        "icon": {
+          "size": "{spacing-24}",
+          "color": "{color-theme-{theme}-400}"
+        },
+        "hover": {
+          "color": "{color-theme-{theme}-600}"
+        }
+      }
+    },
+    "animation": {
+      "duration": "200ms",
+      "timing": "cubic-bezier(0.4, 0, 0.2, 1)",
+      "enter": {
+        "opacity": "0",
+        "transform": "scale(0.95)"
+      },
+      "exit": {
+        "opacity": "0",
+        "transform": "scale(0.95)"
+      }
+    }
+  }
+} 
