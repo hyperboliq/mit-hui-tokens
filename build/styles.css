@@ -1,0 +1,45 @@
+body {
+  font-family: var(--typography-font-family-text);
+  margin: 0;
+  padding: 0;
+  background-color: var(--surfaces-background);
+  color: var(--primary-text);
+}
+
+header {
+  background-color: var(--primary-theme-blue);
+  color: var(--secondary-text);
+  padding: var(--spacing-16);
+  text-align: center;
+}
+
+section {
+  margin: var(--spacing-32);
+}
+
+.color-swatch {
+  width: 100px;
+  height: 100px;
+  margin: var(--spacing-8);
+  display: inline-block;
+  line-height: 100px;
+  color: #fff;
+  text-align: center;
+}
+
+.button {
+  padding: var(--spacing-8) var(--spacing-16);
+  border-radius: var(--border-radius-4);
+  margin: var(--spacing-4);
+  cursor: pointer;
+}
+
+.button-primary {
+  background-color: var(--primary-theme-blue);
+  color: var(--primary-text);
+}
+
+.button-secondary {
+  background-color: var(--secondary-theme-green);
+  color: var(--primary-text);
+}

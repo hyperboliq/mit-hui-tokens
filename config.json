@@ -1,0 +1,18 @@
+{
+  "source": ["/Users/juzelle/Style Dictionary/my-style-dictionary-project/tokens/**/*.json"],
+  "platforms": {
+    "css": {
+      "transformGroup": "web",
+      "buildPath": "build/css/",
+      "files": [
+        {
+          "destination": "variables.css",
+          "format": "css/variables",
+          "options": {
+            "outputReferences": true
+          }
+        }
+      ]
+    }
+  }
+}

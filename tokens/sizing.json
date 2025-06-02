@@ -1,0 +1,54 @@
+{
+  "spacing": {
+    "0": { "value": "0px" },
+    "2": { "value": "2px" },
+    "4": { "value": "4px" },
+    "6": { "value": "6px" },
+    "8": { "value": "8px" },
+    "12": { "value": "12px" },
+    "16": { "value": "16px" },
+    "24": { "value": "24px" },
+    "32": { "value": "32px" },
+    "48": { "value": "48px" },
+    "64": { "value": "64px" },
+    "128": { "value": "128px" }
+  },
+
+  "border-radius": {
+    "0": { "value": "0px" },
+    "4": { "value": "4px" },
+    "8": { "value": "8px" },
+    "12": { "value": "12px" },
+    "16": { "value": "16px" },
+    "24": { "value": "24px" },
+    "32": { "value": "32px" }
+  },
+
+  "breakpoints": {
+    "xs": { "max": "575px" },
+    "sm": { "min": "576px", "max": "767px" },
+    "md": { "min": "768px", "max": "991px" },
+    "lg": { "min": "992px", "max": "1199px" },
+    "xl": { "min": "1200px", "max": "1399px" },
+    "xxl": { "min": "1400px" }
+  },
+  
+  "container-widths": {
+    "xs": { "value": "100%" },
+    "sm": { "value": "544px" },
+    "md": { "value": "735px" },
+    "lg": { "value": "960px" },
+    "xl": { "value": "1140px" },
+    "xxl": { "value": "1320px" }
+  },
+
+  "box-shadow": {
+      "xs":  { "value": "0px 2px 2px 0px rgba(0, 0, 0, 0.05)" },
+      "sm": { "value": "0px 4px 4px 0px rgba(0, 0, 0, 0.05), 0px 2px 2px 0px rgba(0, 0, 0, 0.05)" },
+      "md": { "value": "0px 8px 8px 0px rgba(0, 0, 0, 0.05), 0px 4px 4px 0px rgba(0, 0, 0, 0.05), 0px 2px 2px 0px rgba(0, 0, 0, 0.05)" },
+      "lg": { "value": "0px 16px 16px 0px rgba(0, 0, 0, 0.05), 0px 8px 8px 0px rgba(0, 0, 0, 0.05), 0px 4px 4px 0px rgba(0, 0, 0, 0.05), 0px 2px 2px 0px rgba(0, 0, 0, 0.05)" },
+      "xl": { "value": "0px 32px 32px 0px rgba(0, 0, 0, 0.05), 0px 16px 16px 0px rgba(0, 0, 0, 0.05), 0px 8px 8px 0px rgba(0, 0, 0, 0.05), 0px 4px 4px 0px rgba(0, 0, 0, 0.05), 0px 2px 2px 0px rgba(0, 0, 0, 0.05)" },
+      "2xl":{ "value": "0px 64px 64px 0px rgba(0, 0, 0, 0.05), 0px 32px 32px 0px rgba(0, 0, 0, 0.05), 0px 16px 16px 0px rgba(0, 0, 0, 0.05), 0px 8px 8px 0px rgba(0, 0, 0, 0.05), 0px 4px 4px 0px rgba(0, 0, 0, 0.05), 0px 2px 2px 0px rgba(0, 0, 0, 0.05)" },
+      "3xl":{ "value": "0px 128px 128px 0px rgba(0, 0, 0, 0.05), 0px 64px 64px 0px rgba(0, 0, 0, 0.05), 0px 32px 32px 0px rgba(0, 0, 0, 0.05), 0px 16px 16px 0px rgba(0, 0, 0, 0.05), 0px 8px 8px 0px rgba(0, 0, 0, 0.05), 0px 4px 4px 0px rgba(0, 0, 0, 0.05), 0px 2px 2px 0px rgba(0, 0, 0, 0.05)" }
+  }
+}

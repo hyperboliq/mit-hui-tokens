@@ -1,0 +1,87 @@
+@import 'variables.css';
+
+/* Define default mode (light mode) variables */
+:root {
+  /* Primary theme colors */
+  --primary-theme-blue: var(--color-theme-light-blue-500);
+  --primary-theme-green: var(--color-theme-light-green-500);
+  --primary-theme-purple: var(--color-theme-light-purple-500);
+  --primary-theme-red: var(--color-theme-light-red-500);
+
+  /* Primary theme border colors */
+  --primary-theme-blue-border: var(--color-theme-light-blue-300);
+  --primary-theme-green-border: var(--color-theme-light-green-300);
+  --primary-theme-purple-border: var(--color-theme-light-purple-300);
+  --primary-theme-red-border: var(--color-theme-light-red-300);
+
+  /* Secondary theme colors */
+  --secondary-theme-blue: var(--color-theme-light-blue-900);
+  --secondary-theme-green: var(--color-theme-light-green-900);
+  --secondary-theme-purple: var(--color-theme-light-purple-900);
+  --secondary-theme-red: var(--color-theme-light-red-900);
+
+  /* Text colors */
+  --primary-text: var(--color-primitive-black-900);
+  --secondary-text: var(--color-primitive-black-700);
+
+  /* Surface colors */
+  --background: var(--color-primitive-black-100);
+  --primary-surfaces: var(--color-primitive-white-opacity-100);
+  --secondary-surfaces: var(--color-primitive-white-opacity-75);
+  --tertiary-surfaces: var(--color-primitive-white-opacity-50);
+
+  /* Status colors */
+  --primary-success: var(--color-primitive-light-green-500);
+  --primary-danger: var(--color-primitive-light-orange-500);
+  --primary-error: var(--color-primitive-light-red-500);
+
+  /* Status border colors */
+  --primary-success-border: var(--color-primitive-light-green-300);
+  --primary-danger-border: var(--color-primitive-light-orange-300);
+  --primary-error-border: var(--color-primitive-light-red-300);
+  
+}
+
+/* Override with dark mode variables when dark mode is preferred */
+@media (prefers-color-scheme: dark) {
+
+  :root {
+  /* Primary theme colors */
+  --primary-theme-blue: var(--color-theme-dark-blue-500);
+  --primary-theme-green: var(--color-theme-dark-green-500);
+  --primary-theme-purple: var(--color-theme-dark-purple-500);
+  --primary-theme-red: var(--color-theme-dark-red-500);
+
+  /* Primary theme border colors */
+  --primary-theme-blue-border: var(--color-theme-dark-blue-300);
+  --primary-theme-green-border: var(--color-theme-dark-green-300);
+  --primary-theme-purple-border: var(--color-theme-dark-purple-300);
+  --primary-theme-red-border: var(--color-theme-dark-red-300);
+
+  /* Secondary theme colors */
+  --secondary-theme-blue: var(--color-theme-dark-blue-900);
+  --secondary-theme-green: var(--color-theme-dark-green-900);
+  --secondary-theme-purple: var(--color-theme-dark-purple-900);
+  --secondary-theme-red: var(--color-theme-dark-red-900);
+
+  /* Text colors */
+  --primary-text: var(--color-primitive-white-opacity-100);
+  --secondary-text: var(--color-primitive-white-opacity-75);
+
+  /* Surface colors */
+  --background: var(--color-primitive-black-800);
+  --primary-surfaces: var(--color-primitive-white-opacity-50);
+  --secondary-surfaces: var(--color-primitive-white-opacity-25);
+  --tertiary-surfaces: var(--color-primitive-white-opacity-10);
+
+  /* Status colors */
+  --primary-success: var(--color-primitive-dark-green-500);
+  --primary-danger: var(--color-primitive-dark-orange-500);
+  --primary-error: var(--color-primitive-dark-red-500);
+
+  /* Status border colors */
+  --primary-success-border: var(--color-primitive-dark-green-300);
+  --primary-danger-border: var(--color-primitive-dark-orange-300);
+  --primary-error-border: var(--color-primitive-dark-red-300);
+  }
+}
