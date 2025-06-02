@@ -1,0 +1,39 @@
+{
+  "button": {
+    "base": {
+      "typography": {
+        "fontFamily": "{typography-font-family-text}",
+        "fontWeight": "{typography-font-weight-medium}",
+        "fontSize": "{typography-font-size-base}"
+      },
+      "border": {
+        "radius": "{border-radius-16}",
+        "width": "{border-width-1}"
+      },
+      "spacing": {
+        "paddingVertical": "{spacing-8}",
+        "paddingHorizontal": "{spacing-16}",
+        "marginVertical": "{spacing-16}",
+        "marginHorizontal": "{spacing-16}"
+      }
+    },
+    "variants": {
+      "primary": {
+        "background": "{color-theme-{theme}-500}",
+        "text": "{color-primitive-white-opacity-100}",
+        "border": "none"
+      },
+      "secondary": {
+        "background": "none",
+        "text": "{color-theme-{theme}-900}",
+        "border": "{color-theme-{theme}-300}"
+      }
+    },
+    "themes": {
+      "red": { "value": "light-red" },
+      "blue": { "value": "dark-blue" },
+      "green": { "value": "light-green" },
+      "purple": { "value": "light-purple" }
+    }
+  }
+}
