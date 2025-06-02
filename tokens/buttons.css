@@ -1,0 +1,64 @@
+/* Base Button Styles */
+.button {
+  font-family: var(--typography-font-family-text);
+  font-weight: var(--typography-font-weight-medium);
+  font-size: var(--typography-font-size-base);
+  border-radius: var(--border-radius-16);
+  border-width: var(--border-width-1);
+  padding: var(--spacing-8) var(--spacing-16);
+  margin: var(--spacing-16) var(--spacing-16);
+  cursor: pointer;
+  transition: background-color 0.3s ease, border-color 0.3s ease, color 0.3s ease;
+}
+
+/* Red Theme */
+.button-red-primary {
+  background-color: var(--color-theme-light-red-500);
+  color: var(--color-primitive-white-opacity-100);
+  border: none;
+}
+
+.button-red-secondary {
+  background-color: none;
+  color: var(--color-theme-light-blue-900);
+  border: 1px solid var(--color-theme-light-blue-300);
+}
+
+/* Blue Theme */
+.button-blue-primary {
+  background-color: var(--color-theme-dark-blue-500);
+  color: var(--color-primitive-white-opacity-100);
+  border: none;
+}
+
+.button-blue-secondary {
+  background-color: none;
+  color: var(--color-theme-dark-blue-900);
+  border: 1px solid var(--color-theme-dark-blue-300);
+}
+
+/* Green Theme */
+.button-green-primary {
+  background-color: var(--color-theme-light-green-500);
+  color: var(--color-primitive-white-opacity-100);
+  border: none;
+}
+
+.button-green-secondary {
+  background-color: none;
+  color: var(--color-theme-light-green-900);
+  border: 1px solid var(--color-theme-light-green-300);
+}
+
+/* Purple Theme */
+.button-purple-primary {
+  background-color: var(--color-theme-light-purple-500);
+  color: var(--color-primitive-white-opacity-100);
+  border: none;
+}
+
+.button-purple-secondary {
+  background-color: none;
+  color: var(--color-theme-light-purple-900);
+  border: 1px solid var(--color-theme-light-purple-300);
+}

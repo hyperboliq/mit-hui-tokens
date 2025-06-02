@@ -1,0 +1,28 @@
+{
+  "typography": {
+    "font-family": {
+      "display": { "value": "'Neue Haas Grotesk Display', sans-serif" },
+      "text": { "value": "'Neue Haas Grotesk Text', serif" }
+    },
+
+    "font-weight": {
+      "light":  { "value": 300 },
+      "regular":{ "value": 500 },
+      "medium": { "value": 700 },
+      "bold":   { "value": 900 },
+      "black":  { "value": 1000 }
+    },
+
+    "font-size": {
+      "xs":     { "value": "11px", "line-height": "125%", "font-family": "text", "_comment": "label" },
+      "sm":     { "value": "13px", "line-height": "125%",  "font-family": "text","_comment": "body small" },
+      "base":   { "value": "15px", "line-height": "125%",  "font-family": "text","_comment": "body medium" },
+      "md":     { "value": "17px", "line-height": "125%",  "font-family": "text","_comment": "body large" },
+      "lg":     { "value": "17px", "line-height": "125%",  "font-family": "text","_comment": "Headline Medium" },
+      "xl":     { "value": "20px", "line-height": "125%",  "font-family": "text", "_comment": "Headline Large" },
+      "2xl":    { "value": "22px", "line-height": "110%",  "font-family": "display","_comment": "Display Small" },
+      "3xl":    { "value": "28px", "line-height": "110%",  "font-family": "display","_comment": "Display Medium" },
+      "4xl":    { "value": "34px", "line-height": "110%",  "font-family": "display","_comment": "Display Large" }
+    }
+  }
+}
