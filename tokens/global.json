@@ -1,0 +1,123 @@
+{
+  "global": {
+    "typography": {
+      "colors": {
+        "heading": {
+          "primary": "{color-primitive-black-900}",
+          "secondary": "{color-primitive-black-700}",
+          "tertiary": "{color-primitive-black-500}"
+        },
+        "body": {
+          "primary": "{color-primitive-black-800}",
+          "secondary": "{color-primitive-black-600}",
+          "tertiary": "{color-primitive-black-400}"
+        },
+        "link": {
+          "default": "{color-theme-{theme}-600}",
+          "hover": "{color-theme-{theme}-700}",
+          "active": "{color-theme-{theme}-800}",
+          "visited": "{color-theme-{theme}-900}"
+        }
+      }
+    },
+    "states": {
+      "interactive": {
+        "hover": {
+          "opacity": "0.9",
+          "transform": "translateY(-1px)",
+          "transition": "all 0.2s ease"
+        },
+        "active": {
+          "opacity": "1",
+          "transform": "translateY(0)",
+          "transition": "all 0.1s ease"
+        },
+        "focus": {
+          "outline": "2px solid {color-theme-{theme}-500}",
+          "outlineOffset": "2px"
+        },
+        "disabled": {
+          "opacity": "0.5",
+          "cursor": "not-allowed",
+          "pointerEvents": "none"
+        }
+      },
+      "feedback": {
+        "success": {
+          "background": "{color-primitive-light-green-100}",
+          "text": "{color-primitive-light-green-700}",
+          "border": "{color-primitive-light-green-300}",
+          "icon": "{color-primitive-light-green-500}"
+        },
+        "error": {
+          "background": "{color-primitive-light-red-100}",
+          "text": "{color-primitive-light-red-700}",
+          "border": "{color-primitive-light-red-300}",
+          "icon": "{color-primitive-light-red-500}"
+        },
+        "warning": {
+          "background": "{color-primitive-light-orange-100}",
+          "text": "{color-primitive-light-orange-700}",
+          "border": "{color-primitive-light-orange-300}",
+          "icon": "{color-primitive-light-orange-500}"
+        },
+        "info": {
+          "background": "{color-theme-{theme}-50}",
+          "text": "{color-theme-{theme}-700}",
+          "border": "{color-theme-{theme}-200}",
+          "icon": "{color-theme-{theme}-500}"
+        }
+      }
+    },
+    "semantic": {
+      "colors": {
+        "background": {
+          "primary": "{color-primitive-white-base}",
+          "secondary": "{color-primitive-black-100}",
+          "tertiary": "{color-primitive-black-200}"
+        },
+        "border": {
+          "primary": "{color-primitive-black-200}",
+          "secondary": "{color-primitive-black-300}",
+          "focus": "{color-theme-{theme}-500}"
+        },
+        "overlay": {
+          "light": "{color-primitive-black-opacity-25}",
+          "medium": "{color-primitive-black-opacity-50}",
+          "dark": "{color-primitive-black-opacity-75}"
+        }
+      },
+      "elevation": {
+        "level1": {
+          "shadow": "0 1px 3px {color-primitive-black-opacity-10}, 0 1px 2px {color-primitive-black-opacity-06}"
+        },
+        "level2": {
+          "shadow": "0 3px 6px {color-primitive-black-opacity-10}, 0 2px 4px {color-primitive-black-opacity-06}"
+        },
+        "level3": {
+          "shadow": "0 10px 20px {color-primitive-black-opacity-10}, 0 3px 6px {color-primitive-black-opacity-06}"
+        },
+        "level4": {
+          "shadow": "0 14px 28px {color-primitive-black-opacity-10}, 0 4px 8px {color-primitive-black-opacity-06}"
+        },
+        "level5": {
+          "shadow": "0 19px 38px {color-primitive-black-opacity-10}, 0 5px 10px {color-primitive-black-opacity-06}"
+        }
+      }
+    },
+    "animation": {
+      "timing": {
+        "fast": "150ms",
+        "normal": "200ms",
+        "slow": "300ms"
+      },
+      "easing": {
+        "default": "cubic-bezier(0.4, 0, 0.2, 1)",
+        "linear": "linear",
+        "in": "cubic-bezier(0.4, 0, 1, 1)",
+        "out": "cubic-bezier(0, 0, 0.2, 1)",
+        "inOut": "cubic-bezier(0.4, 0, 0.2, 1)"
+      }
+    }
+  }
+} 
